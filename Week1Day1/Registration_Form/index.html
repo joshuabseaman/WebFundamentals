@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="#">
+        <h1>Registration Form</h1>
+        <p>First Name: * <input type="text" name="first_name"></p>
+        <p>Last Name: * <input type="text" name="last_name"></p>
+        <p>Email Address: * <input type="text" name="email_address"></p>
+        <p>Password: * <input type="password" name="password"></p>
+        <p>Confirm Password: * <input type="password" name="confirm_password"></p>
+        <p>Birthday: <input type="date" name="dob"></p>
+        <p>Gender Identity: 
+            <input type="radio" name="font" id="normal">
+            <label for="normal">Male</label>
+            <input type="radio" name="font" id="normal">
+            <label for="normal">Female</label>
+            <input type="radio" name="font" id="normal">
+            <label for="normal">Non-binary</label>
+            <input type="radio" name="font" id="normal">
+            <label for="normal">I prefer not to answer</label>
+        </p>
+        <p>A short description about myself:</p>
+        <p><textarea name="comment" cols="40" rows="5"></textarea></p>
+        <p>Favorite Language: 
+            <select name="language">
+                <option>JavaScript</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Python</option>
+                <option>Mern</option>
+                <option>Java</option>
+                <option>C#</option>
+            </select>
+        </p>
+        <p><input type="checkbox" name="accept" id="accept">
+            <label for="accept">Yes, I would like to receive periodic email updates</label>
+        </p>
+        <p><input type="submit" value="Create Account"></p>
+        <p>* Indicates a required field</p>
+    </form>
+</body>
+</html>
