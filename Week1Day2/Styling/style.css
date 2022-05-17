@@ -1,0 +1,32 @@
+h1 {
+    color:aqua;
+    background-color: black;
+    height: 50px;
+    text-align: left;
+    font-family: cursive;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+h2 {
+    color:white;
+    background-color:rebeccapurple;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+    height: 30px;
+    font-size:xx-large;
+    padding: 10px;
+}
+
+h3 {
+    color: black;
+    background-color: lightskyblue;
+    text-align: right;
+    font-family: monospace;
+    text-decoration: underline;
+    height: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    font-size: x-large;
+}
