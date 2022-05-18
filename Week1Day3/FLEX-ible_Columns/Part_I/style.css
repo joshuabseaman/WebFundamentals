@@ -1,0 +1,10 @@
+.row { 
+    display: flex;
+    height: 100px;
+}
+
+.col {
+    flex: 1;
+    background-color: black;
+    margin: 10px;
+}
