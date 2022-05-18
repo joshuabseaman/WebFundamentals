@@ -3,20 +3,14 @@
     height: 800px;
     width: 600px;
     margin: 20px;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 10px 20px 20px;
 }
 
 h1 {
     font-family: cursive;
     font-size: xx-large;
     color:slategray;
-    display: flex;
-    justify-content: center;
     text-align: center;
-    margin-top: 20px;
 }
 
 .top {
@@ -25,8 +19,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 img {
@@ -48,7 +41,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 0px 20px;
     margin-top: 20px;
 }
