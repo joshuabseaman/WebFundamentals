@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window {
+    height: 400px;
+    width: 1000px;
+    border: 5px solid lightgray;
+    margin-top: 50px;
+}
+
+#user {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: 40px;
+    border: 5px solid lightgray;
+    border-radius: 50%;
+}
+
+.top {
+    background-color: darkcyan;
+    height: 100px;
+}
+
+.bottom {
+    color: black;
+    margin-left: 40px;
+}
+
+#marker {
+    height: 20px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+h3 {
+    position: relative;
+    bottom: 50px;
+}
+
+#gear { 
+    height: 20px;
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}
+
+h4 {
+    position: relative;
+    bottom: 20px;
+    color: blue;
+    text-decoration: underline;
+}
