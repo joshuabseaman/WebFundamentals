@@ -41,3 +41,4 @@ function reverse(arr) {
 }
 
 console.log(reverse(["a", "b", "c", "d", "e"]));
+//[ 'e', 'd', 'c', 'b', 'a' ]
