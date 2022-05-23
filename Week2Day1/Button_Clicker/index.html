@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <input type="text" placeholder="Search">
+        <button onclick="logout(this)">Login</button>
+    </div>
+    <div class="row">
+        <div class="columnleft">
+            <div class="firstdef">
+                <div class="left">
+                    <h1>ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <h4>Plural: <i>ninjas</i></h4>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="right">
+                    <h2>A practitioner skilled in the <u style="color: blue;">Japanese</u> art of <u style="color: blue;">ninjutsu</u></h2>
+                </div>
+            </div>
+            <div class="seconddef">
+                <div class="left">
+                    <h1>ninja</h1>
+                    <h3><i>noun</i></h3>
+                    <h4>Plural: <i>ninjas</i></h4>
+                    <button onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="right">
+                    <h2>A <u style="color: blue;">programmer</u> who breaks down problems with <u style="color: blue;">zen</u>-like focus</h2>
+                </div>
+            </div>
+        </div>
+        <div class="columnright">
+            <div class="youadd">
+                <div class="top">
+                    <h1>Dojonary is defined by YOU</h1>
+                </div>
+                <div class="bottom">
+                    <button onclick="hide(this)" id="adddef">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
