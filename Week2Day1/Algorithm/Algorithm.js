@@ -8,7 +8,7 @@ console.log(random);
 
 
 function d6() {
-    var roll = Math.ceil(Math.random() * 6);
+    var roll = Math.floor(Math.random() * 6 + 1);
     return roll;
 }
     
