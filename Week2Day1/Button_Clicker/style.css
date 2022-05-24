@@ -111,6 +111,7 @@ button {
 }
 
 .bottom button {
+    background-color:rgb(136, 176, 56);
     height: 30px;
     width: 260px;
     margin: 20px;
