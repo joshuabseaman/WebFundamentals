@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    height: 100px;
+    width: 350px;
+    border: 3px solid black;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background-color: goldenrod;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+.bottom {
+    margin-top: 20px;
+}
