@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes Part II</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="topbar">Network</h1>
+    <h1 class="header">Your Feed</h1>
+    <div class="row">
+        <div class="columnleft">
+            <div class="usercard">
+                <img src="icon.png" alt="user icon">
+                <h3 style="color:blue;"><u>Add an avater</u></h3>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+        <div class="columnright">
+            <div class="post">
+                <div class="top">
+                    <h1 class="left">Neil M</h1>
+                    <div class="right">
+                        <h3><span id="post-1">9</span> like(s)</h3>
+                        <button onclick="likedNeil('#post-1')"><h3>Like</h3></button>
+                    </div>
+                </div>
+                <h3 class="bottom">I just set up this new discord bot, let me know what you all think.<span style="color:blue;"><u>link</u></span></h3>
+            </div>
+            <div class="post">
+                <div class="top">
+                    <h1 class="left">Nichole K</h1>
+                    <div class="right">
+                        <h3><span id="post-2">12</span> like(s)</h3>
+                        <button onclick="likedNichole('#post-2')"><h3>Like</h3></button>
+                    </div>
+                </div>
+                <h3 class="bottom">Just finished my <span style="color:blue;"><u>next comic</u></span>, check it out.</h3>
+            </div>
+            <div class="post">
+                <div class="top">
+                    <h1 class="left">Jim R</h1>
+                    <div class="right">
+                        <h3><span id="post-3">9</span> like(s)</h3>
+                        <button onclick="likedJim('#post-3')"><h3>Like</h3></button>
+                    </div>
+                </div>
+                <h3 class="bottom">I can't stop listening to the <span style="color:blue;"><u>new album</u></span>. Who else is liking it?</h3>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
