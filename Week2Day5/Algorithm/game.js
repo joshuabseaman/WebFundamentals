@@ -32,79 +32,88 @@ function howMany(i, j, element) {
   console.log({ i, j });
   let sum = 0;
   if (theDojo[i][j] == 10) {
-      element.innerText = 10;
-      element.style.color = "red";
-      element.style.animation = "shake 1.0s"
-      setTimeout(restart, 1000);
-  } else {
-      if (i === 0) {
-          for (k = i; k <= i + 1; k++) {
-              if (j === 0) {
-                  for (l = j; l <= j + 1; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              } else if (j === theDojo[k].length - 1) {
-                  for (l = j - 1; l <= j; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              } else {
-                  for (l = j - 1; l <= j + 1; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              }
+    element.innerText = 10;
+    element.style.color = "red";
+    element.style.animation = "shake 1.0s"
+    setTimeout(restart, 1000);
+  }
+  else {
+    if (i === 0) {
+      for (k = i; k <= i + 1; k++) {
+        if (j === 0) {
+          for (l = j; l <= j + 1; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
           }
-      } else if (i === theDojo.length - 1) {
-          for (k = i - 1; k <= i; k++) {
-              if (j === 0) {
-                  for (l = j; l <= j + 1; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              } else if (j === theDojo[k].length - 1) {
-                  for (l = j - 1; l <= j; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              } else {
-                  for (l = j - 1; l <= j + 1; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              }
+        }
+        else if (j === theDojo[k].length - 1) {
+          for (l = j - 1; l <= j; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
           }
-      } else {
-          for (k = i - 1; k <= i + 1; k++) {
-              if (j === 0) {
-                  for (l = j; l <= j + 1; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              } else if (j === theDojo[k].length - 1) {
-                  for (l = j - 1; l <= j; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              } else {
-                  for (l = j - 1; l <= j + 1; l++) {
-                      if (theDojo[k][l] === 10) {
-                          sum += 1;
-                      }
-                  }
-              }
+        }
+        else {
+          for (l = j - 1; l <= j + 1; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
           }
+        }
       }
-      element.innerText = sum;
+    }
+    else if (i === theDojo.length - 1) {
+      for (k = i - 1; k <= i; k++) {
+        if (j === 0) {
+          for (l = j; l <= j + 1; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
+          }
+        }
+        else if (j === theDojo[k].length - 1) {
+          for (l = j - 1; l <= j; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
+          }
+        }
+        else {
+          for (l = j - 1; l <= j + 1; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
+          }
+        }
+      }
+    }
+    else {
+      for (k = i - 1; k <= i + 1; k++) {
+        if (j === 0) {
+          for (l = j; l <= j + 1; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
+          }
+        }
+        else if (j === theDojo[k].length - 1) {
+          for (l = j - 1; l <= j; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
+          }
+        }
+        else {
+          for (l = j - 1; l <= j + 1; l++) {
+            if (theDojo[k][l] === 10) {
+              sum += 1;
+            }
+          }
+        }
+      }
+    }
+    element.innerText = sum;
   }
 }
 
